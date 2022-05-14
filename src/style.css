@@ -1,0 +1,112 @@
+.wrapper {
+  border: 1px solid gainsboro;
+  padding: 30px;
+  margin: 50px;
+  -webkit-box-shadow: 0 10px 30px 5px gainsboro;
+          box-shadow: 0 10px 30px 5px gainsboro;
+}
+
+.wrapper .wrapper-inner {
+  width: 35%;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid green;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .wrapper-inner .form {
+  padding: 10px;
+}
+
+.wrapper .wrapper-inner .form .input {
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.wrapper .wrapper-inner .form .input1 {
+  margin-left: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.wrapper .wrapper-inner .form .input2 {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.wrapper .wrapper-inner .form .select {
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 0px;
+  width: 16rem;
+}
+
+.wrapper .wrapper-inner .checkbox {
+  margin-left: -240px;
+}
+
+.wrapper .wrapper-inner .checkbox .input {
+  margin-left: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.wrapper .wrapper-inner .image {
+  padding: 10px;
+}
+
+.wrapper .wrapper-inner .image span {
+  border: 1px solid gainsboro;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.wrapper .wrapper-inner .image span:hover {
+  border: 1px solid black;
+}
+
+.wrapper .wrapper-inner .create-table-cancel {
+  margin: 20px;
+}
+
+.wrapper .wrapper-inner .create-table-cancel .span1 {
+  border: 1px solid gainsboro;
+  margin: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background: blue;
+  color: #fff;
+}
+
+.wrapper .wrapper-inner .create-table-cancel .span2 {
+  border: 1px solid gainsboro;
+  margin: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background: red;
+  color: #fff;
+}
+
+.edit-btn {
+  background: blue;
+  color: #fff;
+}
+
+.delete-btn {
+  background: red;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

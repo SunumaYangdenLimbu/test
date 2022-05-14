@@ -1,0 +1,102 @@
+.wrapper{
+    border: 1px solid gainsboro;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0 10px 30px 5px gainsboro;
+
+    .wrapper-inner{
+        width: 35%;
+        margin: auto;
+        margin-top: 30px;
+        border: 1px solid green;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .form{
+            padding: 10px;
+
+            .input{
+                margin-left: 20px;
+                outline: none;
+                cursor: pointer;
+            }
+            .input1{
+                margin-left: 30px;
+                outline: none;
+                cursor: pointer;
+            }
+            .input2{
+                margin-left: 10px;
+                cursor: pointer;
+            }
+            .select{
+                margin-left: 20px;
+                outline: none;
+                cursor: pointer;
+                padding: 5px 0px;
+                width: 16rem;
+
+            }
+        }
+
+        .checkbox{
+            margin-left: -240px;
+
+            .input{
+                margin-left: 30px;
+                outline: none;
+                cursor: pointer;
+            }
+        }
+
+        .image{
+            // border: 1px solid green;
+            padding: 10px;
+
+            span{
+
+                border: 1px solid gainsboro;
+                padding: 10px;
+                margin: 10px;
+                cursor: pointer;
+
+                &:hover{
+                    border: 1px solid black;
+                }
+            }
+        }
+
+        .create-table-cancel{
+            margin: 20px;
+            .span1{
+                border: 1px solid gainsboro;
+                margin: 30px;
+                padding: 10px;
+                cursor: pointer;
+                background: blue;
+                color: #fff;
+            }
+            .span2{
+                border: 1px solid gainsboro;
+                margin: 30px;
+                padding: 10px;
+                cursor: pointer;
+                background: red;
+                color: #fff;
+            }
+        }
+
+    }
+}
+
+.edit-btn{
+    background: blue;
+    color: #fff;
+}
+
+.delete-btn{
+    background: red;
+    color: #fff;
+}
