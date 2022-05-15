@@ -25,19 +25,21 @@ const FetchApi = () => {
       <div className='fetchapi'>
           <h1>Json Data</h1>
       </div>
-      {
-          data.map((elem)=>{
-              return(
-                  <>
-                     <p>UserTD:{elem.userId}</p>
-                     <p>ID:{elem.id}</p>
-                     <p>Title:{elem.title}</p>
-                     <p>Body:{elem.body}</p>
-                     <hr/>
-                  </>
-              )
-          })
-      }
+      <div className='inside-fetchApi'>
+        {
+            data.map((elem)=>{
+                return(
+                    <>
+                        <p>UserTD:{elem.userId}</p>
+                        <p>ID:{elem.id}</p>
+                        <p>Title:{elem.title}</p>
+                        <p>Body:{elem.body}</p>
+                        <hr/>
+                    </>
+                )
+            })
+        }
+      </div>  
       
     </>
   )

@@ -109,4 +109,139 @@
   background: red;
   color: #fff;
 }
+
+.wrapper-inner {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid green;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper-inner .form {
+  padding: 10px;
+}
+
+.wrapper-inner .form .input {
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.wrapper-inner .form .input1 {
+  margin-left: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.wrapper-inner .form .input2 {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.wrapper-inner .form .select {
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 0px;
+  width: 16rem;
+}
+
+.wrapper-inner .checkbox {
+  margin-left: -240px;
+}
+
+.wrapper-inner .checkbox .input {
+  margin-left: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.wrapper-inner .image {
+  padding: 10px;
+}
+
+.wrapper-inner .image span {
+  border: 1px solid gainsboro;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.wrapper-inner .image span:hover {
+  border: 1px solid black;
+}
+
+.wrapper-inner .create-table-cancel {
+  margin: 20px;
+}
+
+.wrapper-inner .create-table-cancel .span1 {
+  border: 1px solid gainsboro;
+  margin: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background: blue;
+  color: #fff;
+}
+
+.wrapper-inner .create-table-cancel .span2 {
+  border: 1px solid gainsboro;
+  margin: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background: red;
+  color: #fff;
+}
+
+.ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.ul li {
+  margin: 5px;
+  list-style: none;
+}
+
+.ul li a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 20px;
+  color: black;
+  -webkit-box-shadow: 0 0 10px 1px gainsboro;
+          box-shadow: 0 0 10px 1px gainsboro;
+}
+
+.ul li a:hover {
+  border: 1px solid blue;
+}
+
+.fetchapi h1 {
+  margin: 30px;
+}
+
+.inside-fetchApi {
+  padding: 30px;
+}
 /*# sourceMappingURL=style.css.map */

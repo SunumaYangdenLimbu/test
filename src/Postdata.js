@@ -14,9 +14,8 @@ const Postdata = () => {
                  <Nav/>
              </div>
              <Routes>
-                <Route path="/app" element={<App/>}/>
                 <Route path='/' element={<FetchApi/>}/>
-   
+                <Route path="/app" element={<App/>}/>
              </Routes>
 
          </Router>
